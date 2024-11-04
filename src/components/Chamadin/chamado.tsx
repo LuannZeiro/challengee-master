@@ -7,64 +7,6 @@ import Link from 'next/link';
 
 const Container = styled.div``;
 
-const Header = styled.div`
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: white;
-  border-bottom: 1px solid #727375;
-`;
-
-const Logo = styled.div`
-  img {
-    width: 350px;
-  }
-`;
-
-const HeaderIcons = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-`;
-
-const Icon = styled.div`
-  width: 50px;
-  padding-left: 30px;
-  margin: 60px;
-  margin-top: 3px;
-
-  @media (max-width: 575px) {
-    width: 50px;
-    padding-left: 15px;
-    margin: 20px;
-  }
-
-  @media (min-width: 576px) and (max-width: 767px) {
-    width: 50px;
-    padding-left: 20px;
-    margin: 30px;
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-    width: 45px;
-    padding-left: 25px;
-    margin: 40px;
-  }
-
-  @media (min-width: 992px) and (max-width: 1199px) {
-    width: 50px;
-    padding-left: 30px;
-    margin: 50px;
-  }
-
-  @media (min-width: 1200px) {
-    width: 50px;
-    padding-left: 30px;
-    margin: 60px;
-  }
-`;
-
 const Central = styled.div`
   display: flex;
   align-items: center;
@@ -139,32 +81,6 @@ const Botao = styled.button`
 const Chamado: React.FC = () => {
   return (
     <Container>
-      <Header>
-        <Logo>
-          <Link href="/Inicial">
-          <Image src="/PortoLogo.png" alt="Logo da Porto" width={400} height={170} />
-          </Link>
-        </Logo>
-      </Header>
-
-      <HeaderIcons>
-        <Link href="/Inicial">
-          <Icon>
-            <Image src="/pasta.png" alt="Pasta" width={25} height={25} />
-          </Icon>
-        </Link>
-        <Link href="/ChamarFornecedor">
-          <Icon>
-            <Image src="/mais.png" alt="Mais" width={25} height={25} />
-          </Icon>
-        </Link>
-        <Link href="/Conta">
-          <Icon>
-            <Image src="/user.png" alt="User" width={25} height={25} />
-          </Icon>
-        </Link>
-      </HeaderIcons>
-
       <Central>
         <Dados>
           <InfoBlock>
@@ -183,7 +99,7 @@ const Chamado: React.FC = () => {
             <Anexo> &gt; Visualizar anexo</Anexo>
           </Link>
           <Texto>
-            Usuario descreveu que seu carro furou o pneu na Avenida Paulista n°1106 - via chatbot
+            Usuário descreveu que seu carro furou o pneu na Avenida Paulista n°1106 - via chatbot
           </Texto>
         </Dados>
       </Central>
