@@ -1,5 +1,6 @@
 "use client";
 
+// Conta TSX
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import Image from 'next/image';
