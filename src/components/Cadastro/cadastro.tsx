@@ -156,7 +156,7 @@ const Cadastrar: React.FC = () => {
     return (
         <ResponsiveContainer>
             <Logo>
-                <Link href="/home">
+                <Link href="/Home">
                 <Image src="/PortoLogo.png" alt="Logo da Porto" width={400} height={200} />
                 </Link>
             </Logo>

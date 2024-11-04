@@ -18,14 +18,9 @@ const Logo = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
 `;
 
 const Heading = styled.h3`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -50px;
     color: #727375;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 `;

@@ -85,10 +85,10 @@ const Chamado: React.FC = () => {
         <Dados>
           <InfoBlock>
             <Image src="/Vectorr.png" alt="User" width={30} height={30} />
-            Miguel Rodrigues Ghelman
+          Miguel Rodrigues Ghelman
           </InfoBlock>
           <InfoBlock>
-            <Image src="/Vector.png" alt="Car" width={30} height={30} />
+            <Image src="/Vector.png" alt="Car" width={25} height={25} />
             FIESTA - FORD - ABC1D23
           </InfoBlock>
           <InfoBlock>
