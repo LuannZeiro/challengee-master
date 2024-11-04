@@ -144,7 +144,7 @@ const ChamarForn: React.FC = () => {
       <Header>
         <Logo>
           <Link href="/Inicial">
-            <Image src="/PortoLogo.png" alt="Logo" width={350} height={100} />
+          <Image src="/PortoLogo.png" alt="Logo da Porto" width={400} height={170} />
           </Link>
         </Logo>
       </Header>
@@ -152,17 +152,17 @@ const ChamarForn: React.FC = () => {
       <HeaderIcons>
         <Link href="/Inicial">
           <Icon>
-            <Image src="/pasta.png" alt="Pasta" width={50} height={50} />
+            <Image src="/pasta.png" alt="Pasta" width={25} height={25} />
           </Icon>
         </Link>
         <Link href="/ChamarForn">
           <Icon>
-            <Image src="/mais.png" alt="Mais" width={50} height={50} />
+            <Image src="/mais.png" alt="Mais" width={25} height={25} />
           </Icon>
         </Link>
         <Link href="/Conta">
           <Icon>
-            <Image src="/user.png" alt="User" width={50} height={50} />
+            <Image src="/user.png" alt="User" width={25} height={25} />
           </Icon>
         </Link>
       </HeaderIcons>

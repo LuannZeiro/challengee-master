@@ -215,7 +215,7 @@ const Inicial: React.FC = () => {
                         <Image src="/pasta.png" alt="Pasta" width={25} height={25} />
                     </Icon>
                 </Link>
-                <Link href="/ChamarForn">
+                <Link href="/ChamarFornecedor">
                     <Icon>
                         <Image src="/mais.png" alt="Adicionar" width={25} height={25} />
                     </Icon>
